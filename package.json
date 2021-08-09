@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss style.css -o dist.css", 
+    "dev": "TAILWIND_MODE=watch postcss style.css -o dist.css -w", 
     "build": "NODE_ENV=production postcss style.css -o dist.css"
   },
   "keywords": [],
