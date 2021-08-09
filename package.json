@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss style.css -o dist.css"
+    "build": "NODE_ENV=production postcss style.css -o dist.css"
   },
   "keywords": [],
   "author": "",
