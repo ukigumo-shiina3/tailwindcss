@@ -1,0 +1,2 @@
+# tailwindcssの学習
+tailwindcssの設定やコードを試しています
